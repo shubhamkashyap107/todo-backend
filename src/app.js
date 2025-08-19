@@ -24,7 +24,7 @@ const cp = require("cookie-parser")
 
 app.use(cors({
     credentials : true,
-    origin : "https://todo-frontend-gihk.vercel.app/"
+    origin : "https://todo-frontend-gihk.vercel.app"
 }))
 app.use(express.json())
 app.use(cp())
